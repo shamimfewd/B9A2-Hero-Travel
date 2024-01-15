@@ -89,10 +89,19 @@ height: 3.25rem;
 /* <=========responsive for mobile==========> */
 
 @media screen and (max-width: 576px) {
+
+    /* header {
+        max-width: 50rem;
+        margin: 0 auto;
+      } */
     .banner_container {
-        width: 100%;
-        height: 600px;
+        width: 24rem;
+        /* height: 30.1875rem; */
+        height: 38rem;
         object-fit: cover;
+        margin: 0 auto;
+       
+      margin-top: 2rem;
       }
 
       
@@ -119,7 +128,8 @@ height: 3.25rem;
     }
 
     .area_selector  {
-       margin-bottom: 5rem;
+       
+       width: 17.9375rem;
         }
 
     form {
