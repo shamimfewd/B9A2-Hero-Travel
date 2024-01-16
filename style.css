@@ -120,6 +120,7 @@ label #cancel {
 form {
   display: flex;
   align-items: center;
+
 }
 
 .area_selector select {
@@ -132,6 +133,7 @@ form {
   text-align: start;
   width: 10.875rem;
   height: 3.25rem;
+  cursor: pointer;
 }
 
 .area_selector button {
@@ -140,6 +142,7 @@ form {
   border-radius: 0.5rem;
   background: #ff5400;
   color: #fff;
+  cursor: pointer;
 }
 
 /* <==========Our Popular Tours=================> */
@@ -446,10 +449,11 @@ li {
   color: #131318;
 }
 
-.blog_card .description {
-  padding: 0;
+
+#description{
   margin-top: 1rem;
-  margin-right: 1rem;
+  text-align: start;
+  padding: 0;
 }
 
 .btn_card {
@@ -487,7 +491,7 @@ li {
   color: #131318;
   text-align: center;
   color: rgba(19, 19, 24, 0.7);
-  padding: 0 5rem;
+  padding: 0 15rem;
 }
 
 /* <========news letter section===========> */
@@ -801,6 +805,12 @@ li {
     color: #131318;
     text-align: center;
     font-size: 1.25rem;
+  }
+
+  .blogs_container p {
+  padding: 0 0;
+    width: 19.3125rem;
+    margin: 0 auto;
   }
 
   .blog_card img {
