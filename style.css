@@ -382,6 +382,7 @@ li {
   text-align: left;
   line-height: 1.625rem;
   width: 30.375rem;
+  margin-left: 1rem;
 }
 
 #card_two {
@@ -411,11 +412,82 @@ li {
 .card_three p {
   text-align: left;
   line-height: 1.625rem;
-  width: 30.375rem;
+  margin-left: 1rem;
 }
 
 .card_three img {
   width: 3rem;
+}
+
+/* <=======blogs section=========> */
+
+.blogs_container {
+  margin-top: 7rem;
+}
+
+.blogs_box {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+.blog {
+  background-color: #f4fdff;
+  border-radius: 1rem;
+}
+
+.blog_card {
+  padding: 1rem;
+}
+
+.blog_card h4 {
+  font-weight: 800;
+  margin-top: 1rem;
+  color: #131318;
+}
+
+.blog_card .description {
+  padding: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.btn_card {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #ff5400;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.card_btn_alin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.blog img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.blogs_container h3 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.blogs_container p {
+  color: #131318;
+  text-align: center;
+  color: rgba(19, 19, 24, 0.7);
+  padding: 0 5rem;
 }
 
 /* <========news letter section===========> */
@@ -651,13 +723,9 @@ li {
     font-size: 1.25rem;
   }
 
-  .popular_tours_img {
-    margin: 0 auto;
-  }
   .popular_tours_img img {
     width: 100%;
     height: 21.375rem;
-    text-align: center;
   }
 
   /* =======Your Destination======== */
@@ -698,7 +766,7 @@ li {
   }
 
   .card_three {
-    margin: 0 auto;
+    width: 100%;
   }
 
   .card_one {
@@ -723,6 +791,32 @@ li {
     width: 16.9375rem;
   }
 
+  /* ==popular place == */
+
+  .blogs_box {
+    flex-direction: column;
+  }
+
+  .blogs_container h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .blog_card img {
+    width: 100%;
+    height: 25rem;
+  }
+
+  .blog_card p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .card_btn_alin {
+    margin-right: 1rem;
+  }
+
   /* <=news letter=> */
   .news_letter_container {
     flex-direction: column;
@@ -730,24 +824,21 @@ li {
   }
 
   .news_letter_text form input {
-    width: 17rem;
-    height: 3.2rem;
+    /* width: 18rem;
+    height: 3.25rem; */
+    width: 100%;
   }
 
   .news_letter_text form button {
-    width: 17rem;
-    height: 3.2rem;
-  }
-
-  .news_letter_text h3 {
-    width: 16.875rem;
-    margin-left: -2rem;
+    /* width: 18rem;
+    height: 3.25rem; */
+    width: 100%;
   }
 
   .news_letter_text p {
     color: #5a5a5d;
     width: 16.875rem;
-    margin-left: -2rem;
+
     line-height: 1.625rem;
     border-bottom: 1px solid rgba(128, 128, 128, 0.311);
     border-width: 100%;
